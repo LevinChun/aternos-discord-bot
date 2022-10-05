@@ -83,7 +83,7 @@ var commands = []*discordgo.ApplicationCommand{
 	},
 	{
 		Name:                     HelpCommand,
-		Description:              "Get help",
+		Description:              "Get Help",
 		DefaultMemberPermissions: &adminPermissions,
 		DMPermission:             &dmPermission,
 	},
